@@ -8,9 +8,7 @@ export default class About extends React.Component {
    }
    render() {
       return (
-         <TouchableOpacity style={{ margin: 128 }} onPress={this.goToHome}>
-            <Text>This is ABOUT</Text>
-         </TouchableOpacity>
+         <Text>This is ABOUT</Text>
       )
    }
 }
